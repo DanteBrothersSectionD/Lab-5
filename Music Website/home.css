@@ -1,0 +1,82 @@
+
+body {
+    background: linear-gradient(to bottom, #E87EA1, #6A4C93);
+    font-size: 23;
+    font-family: Roboto Mono;
+}
+
+.tit {
+    color: white;
+    position: absolute;
+    top: -30;
+}
+
+.logo {
+    margin-right: 15;
+}
+.navbar {
+    opacity: 75%;
+    display: flex;
+    position: absolute;
+    padding: 5;
+    background-color: #DC79A0;
+    left: 0;
+    right: 0;
+    top: 0;
+    justify-content: flex-end;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.items {
+    display: flex;
+    gap: 20px;
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%; 
+    object-fit: cover; /
+    pointer-events: none; 
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+.action-button {
+    padding: 30px 50px;
+    background-color: #ff7e5f;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #feb47b;
+}
+

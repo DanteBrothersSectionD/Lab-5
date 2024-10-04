@@ -1,0 +1,115 @@
+
+body {
+    background: linear-gradient(to bottom, #E87EA1, #6A4C93);
+    font-size: 23;
+    font-family: Roboto Mono;
+}
+
+.tit {
+    color: white;
+    position: absolute;
+    top: -30;
+}
+
+.logo {
+    margin-right: 15;
+}
+.navbar {
+    display: flex;
+    position: absolute;
+    padding: 5;
+    background-color: #DC79A0;
+    left: 0;
+    right: 0;
+    top: 0;
+    justify-content: flex-end;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    position: absolute;
+    bottom: -2500;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #7A5395;
+    text-align: center;
+    font-size: 22;
+    color: white
+}
+
+.items {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    transform: translateY(110px);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 60px;
+    transition: transform 0.3s;
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #555;
+}
+
+.card-button {
+    padding: 10px 20px;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: #feb47b;
+}
+
+.card:hover {
+    transform: scale(0.99);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
